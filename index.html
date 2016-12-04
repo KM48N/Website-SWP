@@ -4,91 +4,83 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fortan's Restaurants</title>
+    <title>Fortan's Restaurant</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/styles-index.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
 <body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default" style="margin-bottom: 0px;">
-      <div class="container" style="margin-left: 0px; margin-right: 0px;  ">
-        <div class="navbar-header" style="max-height: 50px;">
-          <!--<a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a> -->
+<header>
+	<section class="container" style="background-color: #000;">
+	<h1 style="font-family: 'Raleway', sans-serif; font-size: 25px; margin: 9.5px; margin-bottom: 0px; position: relative; float: left;">Fortan</h1>
+	<ul class="topnav">
+	  <li class="right visible-xs">
+	  	  <div class="dropdown" style="float: right;">
+  			<button class="dropbtn" style="background-color: #4CAF50;">Account</button>
+  			<div class="dropdown-content" href="admin.html">
+  				<a href="login.html">Login</a>
+  				<a href="register.html">Register</a>
+  				<a class="divider"></a>
+  				<a href="admin.html">Admin</a>
+ 			</div>
+ 		  </div>
+ 		   <br/ class="visible-xs"><br/>
+	  </li>
 
-          <div class="navbar-brand" style="max-height: 50px;"  >
-            <a><h1 style="padding-top: 3%;">fortan</h1></a>
-            <!--<p>
-              <img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>Kosher Certified</span>
-            </p>-->
-          </div>
+	  <li><a href="index.html">Home</a></li>
+	  <li class="visible-xs"><a href="menu.html">Menu</a></li>
+	  <li class="visible-sm visible-md visible-lg">
+	  	  <div class="dropdown">
+  			<button class="dropbtn">Menu</button>
+  			<div class="dropdown-content" style="left:0;">
+  				<a href="menu-br.html">Breakfast</a>
+  				<a href="menu-la.html">Launch</a>
+  				<a href="menu-di.html">Dinner</a>
+  				<a href="menu-dr.html">Drinks</a>
+  				<a href="menu.html">All</a>
+ 			</div>
+ 		  </div>
+	  </li>
+	  <li><a href="reserve.html">Reserve</a></li>
+	  <li><a href="about.html">About</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+	  <li class="right visible-sm visible-md visible-lg">
+	  	  <div class="dropdown">
+  			<button class="dropbtn" style="background-color: #4CAF50;">Account</button>
+  			<div class="dropdown-content" href="admin.html">
+  				<a href="login.html">Login</a>
+  				<a href="register.html">Register</a>
+  				<a class="divider"></a>
+  				<a href="admin.html">Admin</a>
+ 			</div>
+ 		  </div>
+	  </li>
+	</ul>
+	</section>
+</header>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" style="position: absolute; right: 0.5%; margin-top: 1.5%">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-center">
-            <li>
-              <a href="index.html"><!--<span class="glyphicon glyphicon-home"></span>--> Home</a>
-            </li>
-            <li>
-              <a href="menu-categories.html"><!--<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">--> Menu</a>
-            </li>
-            <li>
-              <a href="#"><!--<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">--> Reserve</a>
-            </li>
-            <li>
-              <a href="#"><!--<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">--> About</a>
-            </li>
-            <li>
-              <a href="#"><!--<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">--> Contact Us</a>
-            </li>
-            <!--<li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* We Deliver</div>
-            </li>-->
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-  </header>
+  <!-- start of #main-content -->
+<section>
+	<img src="images/home-tile.jpg" alt="Norway" width="2543" height="auto">
+	<img src="images/intro.jpg" alt="Norway" width="2543" height="auto">
+	<img src="images/sample.png" alt="Norway" width="2543" height="auto">
+	<img src="images/f1.png" alt="Norway" width="600" height="600" style="width:33%; height: auto; float:auto;margin-left: .29%;">
+	<img src="images/f2.png" alt="Norway" width="600" height="600" style="width:33%; height: auto; float:auto;margin: 0;">
+	<img src="images/f3.png" alt="Norway" width="600" height="600" style="width:33%; height: auto; float:auto;margin: 0;">
+</section>
 
- <div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:012-345-6789" >
-      <span class="glyphicon glyphicon-earphone"></span>
-      012-345-6789
-    </a>
-  </div>
-
-  <div id="home" class="row" style="margin:0;">
-    <section>
-      <div class="col-lg-12" style="padding: 0px;box-sizing: content-box;">
-        <a href="menu-categories.html">
-          <div id="home-tile">
-            <!--<span>fortan</span>-->
-          </div>
-        </a>
-      </div>
-    </section>
-    
-  </div>
   <!-- End of #main-content -->
 
-  <footer class="panel-footer">
-    <div class="container">
-      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
-    </div>
-  </footer>
+  <section style="background-color: #000;">
+  		<footer class="panel-footer" style="background-color: #000;">
+    		<div class="container">
+      			<div class="text-center">&copy; Copyright fortan's Restaurant 2016</div>
+    		</div>
+ 		 </footer>
+  </section>
+  
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>

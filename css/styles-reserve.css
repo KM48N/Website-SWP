@@ -1,0 +1,14 @@
+body{
+		background-image: url(../images/picture.jpg);
+       
+	}
+	form{
+	    color: #5c0361;
+		font-size: 18px;
+		font-family: Arial;
+	}
+	h1{
+		  color: #5c0361;
+		font-size: 17px;
+		font-family: cursive ;
+	}
