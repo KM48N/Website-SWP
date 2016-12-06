@@ -1,9 +1,97 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>admin</title>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fortan's Restaurant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles-index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
 <body>
-<a href="index.html">back</a>
+<header>
+  <section class="container" style="background-color: #000;">
+  <h1 style="font-family: 'Raleway', sans-serif; font-size: 25px; margin: 9.5px; margin-bottom: 0px; position: relative; float: left;">Fortan</h1>
+  <ul class="topnav">
+    <li class="right visible-xs">
+        <div class="dropdown" style="float: right;">
+        <button class="dropbtn" style="background-color: #4CAF50;">Account</button>
+        <div class="dropdown-content" href="admin.html">
+          <iframe src="login.html" scrolling="no" width="250px" height="233px"  frameborder="0" style="float:middle;  border:0; background-color: #000; " allowfullscreen></iframe>
+          <br>
+          <br>
+          <a href="admin.html" style="background-color: #4CAF50;">Admin</a>
+      </div>
+      </div>
+       <br/ class="visible-xs"><br/>
+    </li>
+
+    <li><a href="index.html">Home</a></li>
+    <li class="visible-xs"><a href="menu.html">Menu</a></li>
+    <li class="visible-sm visible-md visible-lg">
+        <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content" style="left:0;">
+          <a href="menu-br.html">Breakfast</a>
+          <a href="menu-la.html">Launch</a>
+          <a href="menu-di.html">Dinner</a>
+          <a href="menu-dr.html">Drinks</a>
+          <a href="menu.html">All</a>
+      </div>
+      </div>
+    </li>
+    <li><a href="reserve.html">Reserve</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li class="right visible-sm visible-md visible-lg">
+        <div class="dropdown">
+        <button class="dropbtn" style="background-color: #4CAF50;">Account</button>
+        <div class="dropdown-content" href="admin.html">
+          <iframe src="login.html" scrolling="no" width="250px" height="200px"  frameborder="0" style="float:middle;  border:0; background-color: #000; " allowfullscreen></iframe>
+          <a href="register.html"  style="width: 230px;background-color: #4CAF50;border: none;color: white;padding: 3px 32px;text-decoration: none;margin-left:5%;cursor: pointer;">Register</a>
+          <br>
+          <a href="admin.html" style="background-color: #4CAF50;">Admin</a>
+      </div>
+      </div>
+    </li>
+  </ul>
+  </section>
+</header>
+
+
+<section style="background-color: #000;">
+	<img src="images/contact.jpg" alt="Norway" width="600" height="700" style="width:100%; height: auto; float:center; margin: 0;">
+	<img src="images/find.jpg" alt="Norway" width="600" height="700" style="width:100%; height: auto; float:center; margin: 0;">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6906.073162125096!2d31.2805147!3d30.0644859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b29c0a5e2c9469b!2sAin+Shams+University%2C+Faculty+of+Engineering!5e0!3m2!1sen!2seg!4v1480983834934" width="800" height="600" frameborder="0" style="border:0; width:100%; height:75%;float:center; margin: 0;" allowfullscreen></iframe>
+	<!--<img src="images/feedback.jpg" alt="Norway" width="600" height="700" style="width:100%; height: auto; float:center; margin: 0;">-->
+</section>
+
+
+<!--<section style="background-color: #fff;">
+	<fieldset class="rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+    <br/><br/>
+	</fieldset>
+</section>-->
+
+ <section style="background-color: #000;">
+  		<footer class="panel-footer" style="background-color: #000;">
+    		<div class="container">
+      			<div class="text-center" style="margin: auto;">&copy; Copyright fortan's Restaurant 2016</div>
+    		</div>
+ 		 </footer>
+  </section>
+
 </body>
 </html>
