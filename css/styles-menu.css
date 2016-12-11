@@ -1,52 +1,101 @@
-img {
-    padding: 0;
-    margin: 10px;
-    display: block;
-border: 2px solid black;
 
-}
-.title {
+.title, .title1, .title2, .title3 {
+    border:10px;
     font-weight: normal;
     font-size: 30px;
-text-decoration: underline;
-background-color: brown;
-color:white;
-margin:10px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: brown;
+    color:white;
+    margin:auto;
 }
 body{
-    margin:10px;
     background-color: black;
     font-size: 20px;
     background-image: url("../images/30.jpg");
-    background-size:100% 100%
-    background-repeat: no-repeat;
     color:white;
-
-
-
+    border: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
-.title1{
-      font-weight: normal;
-    font-size: 30px;
-text-decoration: underline;
-background-color: brown;
-color:white;
-margin:10px;
+/* FOOTER */
+.panel-footer {
+  margin-top: 0px;
+  padding:0;
+  background-color: #000;
+  border-top: 4px ;
+  border-top-color: #fff; 
+}
+/* END FOOTER */
+
+
+.dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-.title2{
-       font-weight: normal;
-    font-size: 30px;
-text-decoration: underline;
-background-color: brown;
-color:white;
-margin:10px;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
-.title3{
-       font-weight: normal;
-    font-size: 30px;
-text-decoration: underline;
-background-color: brown;
-color:white;
-margin:10px;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.container{
+  padding: 0;
+  margin: 0;
+  width:100%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+ul.topnav li{float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
 }

@@ -1,10 +1,99 @@
-h1{
+h2{
 background-color:purple;
 }
-h1{
+h2{
 color:pink;
 }
 body{
-		background-image: url(../images/f.jpg);
+		background: url(../images/f.jpg) no-repeat ;
+		background-position: center;
+		background-size: 1920px 1080px;
+		font-size: 16px;
+  		color: #fff;
+ 		background-color: #fff;
+  		font-family: 'Roboto', sans-serif;
    
 	}
+/* FOOTER */
+.panel-footer {
+  margin-top: 0px;
+  padding:0;
+  background-color: #000;
+  border-top: 4px ;
+  border-top-color: #fff; 
+}
+/* END FOOTER */
+
+/*Header*/
+.dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.container{
+  padding: 0;
+  margin: 0;
+  width:100%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+ul.topnav li{float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+
+/*Header*/
